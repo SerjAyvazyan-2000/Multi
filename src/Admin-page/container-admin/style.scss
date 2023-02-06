@@ -1,0 +1,10 @@
+@import "src/assets/style/variables";
+
+.admin-page{
+   display: flex;
+}
+.container{
+  width: calc(100% - 350px);
+  background: $light-grey;
+}
+

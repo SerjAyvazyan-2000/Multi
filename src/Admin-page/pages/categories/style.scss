@@ -1,0 +1,22 @@
+@import "src/assets/style/variables";
+.categories-container{
+  overflow: auto;
+  height: calc(100vh - 100px);
+
+}
+.add-categories-name{
+   border-bottom: 2px solid ;
+}
+.categories-backend{
+   display: flex;
+
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+
+  p{
+    font-size: $font-size-24;
+    color: gold;
+  }
+
+}

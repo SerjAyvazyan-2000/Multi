@@ -1,0 +1,217 @@
+@import "src/assets/style/variables";
+//====================================BILLING START STYLE======================
+
+.checkout-name{
+   margin-top: 20px;
+  padding    : 20px;
+
+  p{
+     font-size: $font-size-30;
+    color: black;
+  }
+}
+.checkout-block{
+   display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+
+  @media screen and  (max-width: 622px){
+    flex-direction: column;
+  }
+
+}
+.billing-block{
+   width: 65%;
+
+  @media screen and  (max-width: 1392px){
+    width: 55%;
+  }
+
+  @media screen and  (max-width: 622px){
+    width: 100%;
+  }
+
+  .billing-name{
+    h2{
+       font-size: $font-size-24;
+    }
+ }
+}
+//================================================FORM START STYLE========================
+.billing-form{
+   margin-top: 20px;
+  background-color: $white3;
+  border-radius: 20px;
+}
+.form-container{
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and  (max-width: 1392px){
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+
+}
+
+.form-tools{
+   width: 40%;
+
+  @media screen and  (max-width: 1392px){
+  width: 80%;
+  }
+}
+//================================================FORM END STYLE========================
+
+//==========================================CHECKBOX STYLE START================
+.form-checkbox{
+   padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  label{
+     padding: 0 0 20px;
+  }
+
+  span{
+     font-size: 20px;
+  }
+
+  input[type = "checkbox"]{
+     width: 20px;
+    height: 20px;
+  }
+}
+//==========================================CHECKBOX STYLE END================
+//=================================================SHIPPING ADDRESS STYLE START====================
+
+.shipping-block{
+  margin-top: 30px;
+
+
+  .shipping-name{
+    h2{
+        font-size: $font-size-24;
+    }
+  }
+}
+.shipping-form-start{
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and  (max-width: 1392px){
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+}
+.shipping-block-none {
+  display: none;
+}
+.shipping-form-block{
+   background-color: $white3;
+border-radius: 20px;
+  margin-top: 20px;
+}
+.sipping-form-tools{
+   width: 40%;
+
+  @media screen and  (max-width: 1392px){
+    width: 80%;
+
+  }
+
+}
+.set-address{
+  text-align: center;
+
+  button{
+    padding: 20px;
+  }
+}
+
+//=================================================SHIPPING ADDRESS STYLE END====================
+//====================================BILLING START STYLE END======================
+
+//================================ORDER STYLE START==================================
+
+.order-block{
+  width: 33%;
+  p{
+    font-size: $font-size-24;
+    padding: 0 0 20px;
+  }
+  span{
+    font-size: $font-size-24;
+
+  }
+
+  @media screen and  (max-width: 622px){
+    width: 100%;
+  }
+
+}
+.order-name{
+  h2{
+    font-size: $font-size-24;
+
+  }
+}
+.order-total-info{
+  background-color: $white3;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px;
+
+  h3{
+   padding: 0 0 10px;
+
+
+  }
+
+}
+.order-products{
+
+}
+.order-products-prise{
+   display: flex;
+  justify-content: space-between;
+}
+.total-block{
+  border-top: 1px solid;
+
+  .total{
+     display: flex;
+    justify-content: space-between;
+  }
+}
+//================================ORDER STYLE END==================================
+
+// ================================PAYMENT STYLE START===============================
+.payment-name{
+  margin-top: 20px;
+  h2{
+    font-size: $font-size-24;
+  }
+}
+.payment-tools{
+   background-color: $white3;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.place-order{
+  text-align: center;
+   button{
+     padding: 20px;
+     background-color: gold;
+     cursor: pointer;
+   }
+}
+
+
+
+// ================================PAYMENT STYLE END===============================

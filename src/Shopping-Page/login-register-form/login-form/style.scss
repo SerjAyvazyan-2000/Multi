@@ -1,0 +1,19 @@
+@import "src/assets/style/variables";
+
+.login-form{
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  transition: 0.5s;
+
+  h2{
+    text-align: center;
+    font-size: $font-size-40;
+    color: $gold;
+  }
+}
+.login-left {
+  left: -600px;
+
+
+}

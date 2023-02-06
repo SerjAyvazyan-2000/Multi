@@ -1,0 +1,24 @@
+@import "src/assets/style/variables";
+
+.products-container{
+   height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+.add-products{
+   border-bottom: 1px solid;
+}
+
+.products-backend{
+   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+
+
+  p{
+     font-size: $font-size-24;
+    color: $green;
+    text-align: center;
+  }
+}

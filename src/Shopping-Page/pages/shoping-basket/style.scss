@@ -1,0 +1,159 @@
+@import "src/assets/style/variables";
+
+.shopping-basket {
+  margin-top : 20px;
+}
+
+.product-table-payment {
+  margin-top      : 20px;
+  display         : flex;
+  gap             : 20px;
+  justify-content : space-between;
+
+  @media screen and (max-width : 1126px) {
+    flex-wrap : wrap;
+  }
+
+}
+
+.P-table-scroll {
+  width      : 100%;
+  overflow   : hidden;
+  overflow-x : auto;
+
+  .table-block{
+    width: 100%;
+  }
+}
+
+.basket-container-name {
+  background-color : white;
+  padding          : 0 0 20px;
+
+  p{
+    font-size: $font-size-30;
+  }
+}
+
+.table-block {
+  width : 55%;
+
+
+  @media screen and (max-width : 1886px) {
+    width : 45%;
+  }
+  @media screen and (max-width : 1680px) {
+    width : 40%;
+  }
+
+  @media screen and (max-width : 1474.80px) {
+    width : 100%;
+  }
+
+  thead {
+    background-color : $light-grey;
+
+
+    th {
+      padding   : 20px;
+      color     : white;
+      max-width : 100%;
+      min-width : 150px;
+    }
+
+  }
+
+  tbody {
+    tr {
+      background-color : white;
+
+      td {
+        padding    : 25px;
+        color      : $green;
+        font-size  : $font-size-18;
+        text-align : center;
+        border     : 1px solid;
+        max-width  : 100%;
+        min-width  : 150px;
+
+        img {
+          width  : 60px;
+          height : 60px;
+        }
+
+        span {
+          margin           : 20px;
+          padding          : 10px;
+          font-size        : $font-size-24;
+          cursor           : pointer;
+          background-color : orange;
+          color            : $light-grey;
+
+          &:hover {
+            background-color : red;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.payment-block {
+  width : 40%;
+  background-color: $white3;
+  border-radius: 10px;
+
+  @media screen and (max-width : 1886px) {
+    width : 45%;
+  }
+
+  @media screen and (max-width : 1680px) {
+    width : 40%;
+  }
+  @media screen and (max-width : 1474.80px) {
+    width  : 100%;
+    height : auto;
+  }
+
+}
+
+
+.cart-summary {
+
+  p {
+    color     : $gold;
+    font-size : $font-size-30;
+
+  }
+}
+
+.payment-container {
+  display          : flex;
+  background-color : $white3;
+  justify-content  : space-between;
+  padding: 20px;
+  margin-top : 10px;
+
+
+
+  h2 {
+    padding    : 0 0 20px;
+    margin-top : 20px;
+  }
+}
+.routing-checkout{
+  text-align: center;
+  margin-top: 20px;
+
+  a{
+     text-decoration: none;
+    background-color: $gold;
+     font-size: 20px;
+    padding: 10px;
+    display: block;
+
+  }
+}
+
+

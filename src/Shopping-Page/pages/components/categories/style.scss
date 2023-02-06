@@ -1,0 +1,55 @@
+@import "src/assets/style/variables";
+
+.categories{
+   display: flex;
+  transition: .4s;
+  width: 24%;
+  background-color: $white3;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 20px;
+overflow: hidden;
+
+  &:hover{
+    background-color: $gold;
+    transition: .4s;
+  }
+  &:hover{
+    .categories-img{
+      transform: scale(1.1);
+      transition: .4s;
+    }
+  }
+  @media screen and (max-width: 1671px){
+    margin: 0 0 20px;
+    width: 520px;
+
+  }
+  @media screen and (max-width: 1096px){
+    width: 360px;
+  }
+  @media screen and (max-width: 856px){
+   width: 400px;
+  }
+
+}
+
+
+.categories-info{
+display: flex;
+  align-items: center;
+
+  p{
+     font-size: $font-size-30;
+    padding: 10px;
+    color: $light-grey;
+  }
+
+}
+
+.categories-img{
+   width: 100px;
+   height: 100px;
+  transition: .4s;
+
+}

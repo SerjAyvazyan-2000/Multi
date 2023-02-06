@@ -1,0 +1,106 @@
+@import "src/assets/style/variables";
+
+.login-register-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+  background-color: $light-grey;
+
+  span{
+     font-size: $font-size-48;
+    letter-spacing: 3px;
+    color: $green;
+  }
+}
+
+.login-register-form{
+   width: 700px;
+  min-height: 1000px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.login-register-tools {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn-submit{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  button {
+    position: relative;
+    border: none;
+    color: #ffffff;
+    width: 40%;
+    min-height: 70px;
+    font-size: $font-size-24;
+    line-height: 2em;
+    background: linear-gradient(
+                    90deg, #03a9f4, #f441a5,
+                    #ffeb3b, #03a9f4
+    );
+    background-size: 300%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+
+  }
+
+  button:hover {
+    animation: animation 8s linear infinite;
+    border: none;
+  }
+
+  @keyframes animation {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+
+  }
+
+  button::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    background: linear-gradient(
+                    90deg, #f4b803, #f3dd1c,
+                    #ffeb3b, #b4f403
+    );
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+  }
+
+  button:hover::before {
+    filter: blur(20px);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

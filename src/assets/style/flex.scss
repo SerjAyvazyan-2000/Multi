@@ -1,0 +1,81 @@
+// #region Flex
+
+.G-container{
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.G-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+}
+
+.G-flex {
+  display: flex;
+}
+
+.G-inline-flex {
+  display: inline-flex;
+}
+
+.G-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.G-center-flex-direction {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.G-justify-center {
+  justify-content: center;
+  display: flex;
+}
+
+.G-justify-between {
+  justify-content: space-between;
+  display: flex;
+}
+
+.G-justify-around {
+  justify-content: space-around;
+  display: flex;
+}
+
+.G-justify-end {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.G-align-center {
+  align-items: center;
+  display: flex;
+}
+
+.G-align-start {
+  align-items: flex-start;
+  display: flex;
+}
+
+.G-align-end {
+  align-items: flex-end;
+  display: flex;
+}
+
+.G-flex-column {
+  flex-direction: column;
+  display: flex;
+}
+
+.G-flex-wrap {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+// #endregion

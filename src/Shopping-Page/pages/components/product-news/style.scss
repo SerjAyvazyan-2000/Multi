@@ -1,0 +1,41 @@
+@import "src/assets/style/variables";
+
+.product-news-block{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 662px){
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+.about-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+  min-height: 70px;
+  background-color: $white3;
+  gap: 20px;
+  border-radius: 20px;
+
+  @media screen and (max-width: 1650px){
+    min-width:300px
+  }
+  @media screen and (max-width: 1268px){
+    margin: 0 0 20px;
+  }
+
+
+  .about-icon{
+    font-size: $font-size-40;
+    color: $gold;
+  }
+
+  .about-info{
+    color:$light-grey ;
+  }
+}

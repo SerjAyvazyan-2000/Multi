@@ -1,0 +1,26 @@
+@import "src/assets/style/variables";
+
+
+.checkbox-block{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.checkbox-tools{
+  padding: 0 0 10px;
+  display: flex;
+  align-items: center;
+  input[type= "radio"]{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  span{
+     font-size: $font-size-24;
+  }
+
+}
+
+

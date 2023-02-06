@@ -1,0 +1,66 @@
+@import "src/assets/style/variables";
+
+.sidebar{
+   width: 350px;
+  background-color:$gray-500 ;
+  height: 100vh;
+}
+
+.admin-title{
+  display: flex;
+  background-color: $light-grey;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  h1{
+    padding: 10px;
+  }
+  .admin-title-multi{
+    h1{
+      font-size: $font-size-48;
+      color: $gold;
+    }
+  }
+
+  .admin-title-shop{
+    background-color: $gold;
+    h1{
+      color: $light-grey;
+      font-size: $font-size-48;
+
+    }
+  }
+}
+
+
+
+.nav-menu{
+margin-top: 20px;
+  ul{
+      li {
+        list-style: none;
+        font-size: $font-size-24;
+
+        &:hover{
+           border-left: 4px solid red;
+        }
+
+        a{
+           text-decoration: none;
+          padding: 20px;
+          margin: 0 0 20px;
+          display: block;
+          background-color:$gold ;
+
+
+
+
+          &.active{
+            border-bottom-left-radius: 40px;
+            background-color: $orange;
+          }
+        }
+      }
+
+  }
+}

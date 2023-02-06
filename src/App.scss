@@ -1,0 +1,121 @@
+
+.shopping-admin-continer{
+    margin-top: 100px;
+}
+.loading-container{
+     position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.loader-bg{
+     background-color: black;
+    opacity: .8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.load{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: orange;
+
+}
+.loader-box{
+
+}
+
+.box{
+     position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .loader{
+         position: absolute;
+         width: 200px;
+        height: 200px;
+         border-radius: 50%;
+        animation: animateLoading 2s linear infinite;
+    }
+    .loader:nth-child(2),
+    .loader:nth-child(4){
+        animation-delay: -1s;
+        filter: hue-rotate(290deg);
+    }
+
+    @keyframes animateLoading {
+        0%{
+             transform: rotate(0deg);
+        }
+        100%{
+             transform: rotate(360deg);
+        }
+    }
+
+    .loader:nth-child(1)::before,
+    .loader:nth-child(2)::before{
+         content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(to top,transparent,rgba(255,200,100,0.5));
+       background-size: 100px 180px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+
+    }
+
+    .loader{
+
+        i{
+             position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(50%);
+            width: 20px;
+            height: 20px;
+            background: #ffc854;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #ffc854,
+            0 0 20px #ffc854,
+            0 0 30px #ffc854,
+            0 0 40px #ffc854,
+            0 0 50px #ffc854,
+            0 0 60px #ffc854,
+            0 0 70px #ffc854,
+            0 0 80px #ffc854,
+            0 0 90px #ffc854,
+            0 0 100px #ffc854;
+
+        }
+
+        span{
+             position: absolute;
+            inset: 20px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+    }
+
+
+
+}
+
+
+
