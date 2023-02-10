@@ -90,26 +90,20 @@ const AddProduct = ({onClose,editItem,editIndex}) => {
             }
             if(item.name === products.Categories ){
                     dispatch(pushProduct({product:products,name:item.name}))
-                // updateCategories(item._id)
+
             }
 
         })
 
 
     }
-    // const updateCategories = async (id) => {
-    //     console.log(categoriesList)
-    //     const result = await axios.put(`https://crudcrud.com/api/b76e3217f8604a86b57ef256676003df/categories/${id}`)
-    //     if(result){
-    //         console.log(result)
-    //     }
-    // }
+
 
 
     const updateProducts = async (id) => {
         const body = products
         delete body._id
-         const result = await axios.put(`https://crudcrud.com/api/b76e3217f8604a86b57ef256676003df/products/${id}`,body)
+         const result = await axios.put(`https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products/${id}`,body)
         if(result){
              getProducts()
             onClose()
@@ -117,13 +111,13 @@ const AddProduct = ({onClose,editItem,editIndex}) => {
     }
 
   const getProducts = async () => {
-    const result = await axios.get("https://crudcrud.com/api/b76e3217f8604a86b57ef256676003df/products")
+    const result = await axios.get("https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products")
     if (result.data) {
       dispatch(createProducts(result.data))
     }
   }
     const createProductsData = async () => {
-         const result = await axios.post("https://crudcrud.com/api/b76e3217f8604a86b57ef256676003df/products",products)
+         const result = await axios.post("https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products",products)
       if(result){
         getProducts()
         onClose()

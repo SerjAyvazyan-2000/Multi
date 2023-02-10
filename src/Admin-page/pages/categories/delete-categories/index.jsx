@@ -15,7 +15,7 @@ const DeleteCategories = ({onClose,item,index}) => {
 
 
     const deleteUser = async () => {
-        await axios.delete(`https://crudcrud.com/api/b76e3217f8604a86b57ef256676003df/categories/${item._id}`)
+        await axios.delete(`https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/categories/${item._id}`)
         onClose()
     }
 

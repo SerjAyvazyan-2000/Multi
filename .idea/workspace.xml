@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9e8c825-f426-4bb7-b698-0374f6bcaaaf" name="Default Changelist" comment="" />
+    <list default="true" id="d9e8c825-f426-4bb7-b698-0374f6bcaaaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/categories/add-categories/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/categories/add-categories/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/categories/delete-categories/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/categories/delete-categories/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/categories/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/categories/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/products/add-product/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/products/add-product/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/products/deleteProduct/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/products/deleteProduct/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/products/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/products/index.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2LJzVeBe87VsgFj6rrAsZDLFAsK" />
   <component name="ProjectViewState">
@@ -34,6 +45,15 @@
       <workItem from="1675604096173" duration="437000" />
       <workItem from="1675604665991" duration="2388000" />
       <workItem from="1675624636134" duration="167000" />
+      <workItem from="1675710020216" duration="240000" />
+      <workItem from="1675715652963" duration="88000" />
+      <workItem from="1675715827319" duration="4000" />
+      <workItem from="1675785002804" duration="19000" />
+      <workItem from="1675786456537" duration="801000" />
+      <workItem from="1675806302655" duration="610000" />
+      <workItem from="1675888924006" duration="377000" />
+      <workItem from="1675971000414" duration="638000" />
+      <workItem from="1676058016066" duration="1875000" />
     </task>
     <servers />
   </component>
@@ -41,9 +61,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1675610065746">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1675788043865">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1675610065746" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1675788043865" />
   </component>
 </project>
