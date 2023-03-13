@@ -11,16 +11,16 @@ const Products = () => {
   const products = useSelector(state => state.Products.productList)
   const dispatch = useDispatch()
 
+  useEffect(() => {
+    getProducts()
+  }, [])
 
   const getProducts = async () => {
-    const result = await axios.get("https://crudcrud.com/930f836115ae432ead0852485b104105/products")
+    const result = await axios.get('https://crudcrud.com/api/930f836115ae432ead0852485b104105/products')
     if (result.data) {
       dispatch(createProducts(result.data))
     }
   }
-  useEffect(() => {
-    getProducts()
-  }, [])
 
 
   return <>

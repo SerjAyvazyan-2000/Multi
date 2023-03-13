@@ -6,19 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d9e8c825-f426-4bb7-b698-0374f6bcaaaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admin-page/container-admin/header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/container-admin/header/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/categories/add-categories/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/categories/add-categories/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/categories/delete-categories/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/categories/delete-categories/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/categories/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/categories/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/products/add-product/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/products/add-product/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/products/deleteProduct/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/products/deleteProduct/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Admin-page/pages/products/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admin-page/pages/products/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shopping-Page/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shopping-Page/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shopping-Page/login-register-form/login-form/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shopping-Page/login-register-form/login-form/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shopping-Page/pages/checkout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shopping-Page/pages/checkout/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shopping-Page/pages/components/categories/categories-details/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shopping-Page/pages/components/categories/categories-details/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shopping-Page/pages/components/featured-products/featured-detail/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shopping-Page/pages/components/featured-products/featured-detail/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shopping-Page/pages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shopping-Page/pages/home/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +31,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/Multi Shoop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/CRAGRAVORMAN DASER/REAKT-JS/Multi Shoop&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -102,6 +91,8 @@
       <workItem from="1678648825729" duration="261000" />
       <workItem from="1678649582584" duration="1046000" />
       <workItem from="1678726398067" duration="1535000" />
+      <workItem from="1678728716993" duration="1878000" />
+      <workItem from="1678736928280" duration="379000" />
     </task>
     <servers />
   </component>
