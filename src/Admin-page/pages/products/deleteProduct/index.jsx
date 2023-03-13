@@ -14,7 +14,7 @@ const DeleteForm = ({onClose,index,item}) => {
     }
 
     const deleteUser = async  () =>{
-        await axios.delete(`https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products/${item._id}`)
+        await axios.delete(`https://crudcrud.com/api/930f836115ae432ead0852485b104105/products/${item._id}`)
 
     }
 

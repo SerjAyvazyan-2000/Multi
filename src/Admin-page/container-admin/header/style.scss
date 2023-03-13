@@ -96,8 +96,9 @@
   background-color:#FFA12B;
   font-size: $font-size-30;
   display:block;
+  border: none;
   position:relative;
-  padding:20px 40px;
+  padding:10px 20px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   text-shadow: 0px 1px 0px #000;
   filter: dropshadow(color=#000, offx=0px, offy=1px);

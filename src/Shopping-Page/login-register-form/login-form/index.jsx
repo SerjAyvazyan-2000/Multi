@@ -24,15 +24,7 @@ const authorizationList = useSelector(state => state.Authorization.authorization
           setLoginUser({...loginUser,[e.target.name]:e.target.value})
           setErrorText({...errorText,[e.target.name]:''})
     }
-// =============BA LAV VOR REDUX CHLINER   VONC KANEYI ???==========================
-  // useEffect(()=>{
-  //         let localArray = JSON.parse(localStorage.getItem("authorizationUser"))
-  //         if(localArray.length){
-  //             {authorizationList = localArray}
-  //         }
-  //
-  // },[])
-  //   ======================uzum em stex  localic PARSE ANEM  bayc   ERORR================
+
  useEffect(()=>{
        dispatch(checkUsers())
  },[])

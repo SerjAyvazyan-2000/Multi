@@ -103,7 +103,7 @@ const AddProduct = ({onClose,editItem,editIndex}) => {
     const updateProducts = async (id) => {
         const body = products
         delete body._id
-         const result = await axios.put(`https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products/${id}`,body)
+         const result = await axios.put(`https://crudcrud.com/api/930f836115ae432ead0852485b104105/products/${id}`,body)
         if(result){
              getProducts()
             onClose()
@@ -111,13 +111,13 @@ const AddProduct = ({onClose,editItem,editIndex}) => {
     }
 
   const getProducts = async () => {
-    const result = await axios.get("https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products")
+    const result = await axios.get("https://crudcrud.com/api/930f836115ae432ead0852485b104105/products")
     if (result.data) {
       dispatch(createProducts(result.data))
     }
   }
     const createProductsData = async () => {
-         const result = await axios.post("https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products",products)
+         const result = await axios.post("https://crudcrud.com/api/930f836115ae432ead0852485b104105/products",products)
       if(result){
         getProducts()
         onClose()

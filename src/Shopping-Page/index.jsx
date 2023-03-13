@@ -3,7 +3,7 @@ import "./style.scss"
 import Header from "./header";
 import Home from "./pages/home";
 import Footer from "./footer";
-import {Routes,Route} from "react-router-dom"
+import {Routes, Route} from "react-router-dom"
 import Contact from "./pages/contact";
 import ShoppingBasket from "./pages/shoping-basket";
 import AdminPage from "../Admin-page/container-admin";
@@ -16,18 +16,18 @@ const ShoppingPage = () => {
 
     return <section className="shopping-page">
 
-             <Header/>
-             <Routes>
-                   <Route path={"*"} element={<Home/>}/>
-                   <Route path={"home"}element={<Home/>}/>
-                    <Route path={"/photographic/:id"} element={<CategoriesDetail/>}/>
-                    <Route path={"/featuredDetail/:id"} element={<FeaturedDetail/>}/>
-                   <Route path={"contact"} element={<Contact/>}/>
-                 <Route path={"basket"} element={<ShoppingBasket/>}/>
-                 <Route path={"login"} element={<LoginRegister/>}/>
-                 <Route path={"checkout"} element={<Checkout/>}/>
-              </Routes>
-              <Footer/>
+        <Header/>
+        <Routes>
+            <Route path={"*"} element={<Home/>}/>
+            <Route path={"home"} element={<Home/>}/>
+            <Route path={"/photographic/:id"} element={<CategoriesDetail/>}/>
+            <Route path={"/featuredDetail/:id"} element={<FeaturedDetail/>}/>
+            <Route path={"contact"} element={<Contact/>}/>
+            <Route path={"basket"} element={<ShoppingBasket/>}/>
+            <Route path={"login"} element={<LoginRegister/>}/>
+            <Route path={"checkout"} element={<Checkout/>}/>
+        </Routes>
+        <Footer/>
     </section>
 }
 

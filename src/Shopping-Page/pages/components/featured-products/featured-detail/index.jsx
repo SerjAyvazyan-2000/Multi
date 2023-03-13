@@ -34,7 +34,7 @@ const FeaturedDetail = () => {
 
 
     const getProducts = async () => {
-         const result = await axios.get("https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products")
+         const result = await axios.get("https://crudcrud.com/api/930f836115ae432ead0852485b104105/products")
        if(result.data){
             result.data.forEach((item,index)=>{
                 if(item._id === id){

@@ -40,13 +40,13 @@ const Home = () => {
     },[])
 
     const getCategories = async () => {
-        const result = await axios.get('https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/categories')
+        const result = await axios.get('https://crudcrud.com/api/930f836115ae432ead0852485b104105/categories')
         if(result.data){
           setCategories(result.data)
         }
     }
     const getProducts = async () =>{
-        const result = await axios.get('https://crudcrud.com/api/e997f1cf4348411eb31ec38e5d8bfca0/products')
+        const result = await axios.get('https://crudcrud.com/api/930f836115ae432ead0852485b104105/products')
         if(result.data){
           setFeatured(result.data)
         }
