@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Multi-Shoop/static/css/main.1817dc1f.css",
+    "main.js": "/Multi-Shoop/static/js/main.65d86808.js",
+    "static/media/carousel-1.jpg": "/Multi-Shoop/static/media/carousel-1.60602d436fd1c214c746.jpg",
+    "static/media/cloth-black-product-7.jpg": "/Multi-Shoop/static/media/cloth-black-product-7.4b68f0a4c166ccfeb349.jpg",
+    "static/media/botas-product-4.jpg": "/Multi-Shoop/static/media/botas-product-4.6c563b3ca6e5c3e02fe1.jpg",
+    "static/media/carousel-3.jpg": "/Multi-Shoop/static/media/carousel-3.bccfb696d299dbe84841.jpg",
+    "static/media/cream-product-8.jpg": "/Multi-Shoop/static/media/cream-product-8.c5cbe9755beb7c9328ad.jpg",
+    "static/media/photographic-product-1.jpg": "/Multi-Shoop/static/media/photographic-product-1.78d63a8ff4e344b53377.jpg",
+    "static/media/clock-product-6.jpg": "/Multi-Shoop/static/media/clock-product-6.9451b0a7b2eb230c0433.jpg",
+    "static/media/offer-1.jpg": "/Multi-Shoop/static/media/offer-1.6bd98b846d36554bf44b.jpg",
+    "static/media/carousel-2.jpg": "/Multi-Shoop/static/media/carousel-2.c8ffc953002ee1e0816b.jpg",
+    "static/media/cloth-blue-product-2.jpg": "/Multi-Shoop/static/media/cloth-blue-product-2.a429598f475f21bb3395.jpg",
+    "static/media/photographic-product-5.jpg": "/Multi-Shoop/static/media/photographic-product-5.d17a272d2186ca8165e4.jpg",
+    "static/media/lamp-product-3.jpg": "/Multi-Shoop/static/media/lamp-product-3.98525da20389b7550fc5.jpg",
+    "static/media/offer-2.jpg": "/Multi-Shoop/static/media/offer-2.cbe6dfd75d3e42d31265.jpg",
+    "static/media/icomoon.svg?qla190": "/Multi-Shoop/static/media/icomoon.1935e5602aca19bc6eff.svg",
+    "static/media/icomoon.eot?qla190": "/Multi-Shoop/static/media/icomoon.24d05958bb41875c0c55.eot",
+    "static/media/icomoon.woff?qla190": "/Multi-Shoop/static/media/icomoon.7666a35541f5e7b0395c.woff",
+    "static/media/icomoon.ttf?qla190": "/Multi-Shoop/static/media/icomoon.ad9dc135b1e5bbbd2e43.ttf",
+    "static/media/slick.svg": "/Multi-Shoop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Multi-Shoop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Multi-Shoop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Multi-Shoop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Multi-Shoop/index.html",
+    "main.1817dc1f.css.map": "/Multi-Shoop/static/css/main.1817dc1f.css.map",
+    "main.65d86808.js.map": "/Multi-Shoop/static/js/main.65d86808.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1817dc1f.css",
+    "static/js/main.65d86808.js"
+  ]
+}
