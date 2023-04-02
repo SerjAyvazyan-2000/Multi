@@ -50,6 +50,7 @@ const Home = () => {
         if(result.data){
           setFeatured(result.data)
         }
+
     }
      return <>
           <div className=" G-container">
