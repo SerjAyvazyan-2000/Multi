@@ -6,27 +6,36 @@
   align-items: center;
   margin-top: 50px;
   flex-direction: column;
-  background-color: $light-grey;
+  overflow: hidden;
+  background: #2D2F33;
 
   span{
-     font-size: $font-size-48;
+     font-size: $font-size-16;
     letter-spacing: 3px;
     color: $green;
+  }
+  input{
+    height: 40px;
+    font-size: $font-size-16;
+  }
+  p{
+    font-size: $font-size-16;
+  }
+  label{
+    font-size: $font-size-16;
   }
 }
 
 .login-register-form{
    width: 700px;
-  min-height: 1000px;
+  min-height: 100vh;
   position: relative;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
+
   margin-top: 30px;
 }
 
 .login-register-tools {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -40,9 +49,9 @@
     position: relative;
     border: none;
     color: #ffffff;
-    width: 40%;
-    min-height: 70px;
-    font-size: $font-size-24;
+    width: 30%;
+    min-height: 20px;
+    font-size: $font-size-16;
     line-height: 2em;
     background: linear-gradient(
                     90deg, #03a9f4, #f441a5,

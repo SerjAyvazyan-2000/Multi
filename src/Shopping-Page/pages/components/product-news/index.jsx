@@ -3,14 +3,14 @@ import React from "react";
 
 const ProductNews = () => {
 
-     return      <div className="product-news-block">
+     return      <section className="product-news-block">
          <div className="about-us">
 
              <div className="about-icon">
                  <span className="icon-checkmark"></span>
              </div>
              <div className="about-info">
-                 <h1>Quality Product</h1>
+                 <span>Quality Product</span>
              </div>
 
          </div>
@@ -21,7 +21,7 @@ const ProductNews = () => {
                  <span className="icon-truck"></span>
              </div>
              <div className="about-info">
-                 <h1>Free Shipping</h1>
+                 <span>Free Shipping</span>
              </div>
 
          </div>
@@ -32,7 +32,7 @@ const ProductNews = () => {
                  <span className="icon-loop"></span>
              </div>
              <div className="about-info">
-                 <h1>14-Day Return</h1>
+                 <span>14-Day Return</span>
              </div>
 
          </div>
@@ -43,10 +43,10 @@ const ProductNews = () => {
                  <span className="icon-phone"></span>
              </div>
              <div className="about-info">
-                 <h1>24/7 Support</h1>
+                 <span>24/7 Support</span>
              </div>
 
          </div>
-     </div>
+     </section>
 }
 export default ProductNews

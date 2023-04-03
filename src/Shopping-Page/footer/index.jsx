@@ -3,12 +3,12 @@ import React from "react";
 
 const Footer = () => {
 
-     return <div className="footer-container">
+     return <footer className="footer-container">
          <div className="G-container">
              <div className="footer-info">
 
                  <div className="contact-offline">
-                      <h1>GET IN TOUCH</h1>
+                      <h3>GET IN TOUCH</h3>
                      <p>No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita
                          et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
                      <span className="icon-location_on">  123 Street, New York, USA</span>
@@ -24,7 +24,7 @@ const Footer = () => {
                  </div>
              </div>
          </div>
-     </div>
+     </footer>
 }
 
 export  default Footer

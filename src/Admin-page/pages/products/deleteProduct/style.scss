@@ -5,27 +5,27 @@
 
   p{
      text-align: center;
-    font-size: $font-size-40;
+    font-size: $font-size-16;
     color: $green;
 
     span{
        text-decoration: underline;
-      font-size: $font-size-40;
+      font-size: $font-size-16;
 
     }
   }
 }
 .btn-delete{
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   button {
     position: relative;
     border: none;
-    margin: 20px;
+    margin: 10px;
     color: #ffffff;
-    width: 60%;
-    min-height: 70px;
-    font-size: $font-size-24;
+    width: 40%;
+    min-height: 40px;
+    font-size: $font-size-16;
     line-height: 2em;
     background: linear-gradient(
                     90deg, #03a9f4, #f441a5,

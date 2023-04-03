@@ -4,6 +4,10 @@
    width: 350px;
   background-color:$gray-500 ;
   height: 100vh;
+
+  @media screen  and  (max-width: 794px){
+     display: none;
+  }
 }
 
 .admin-title{
@@ -11,13 +15,13 @@
   background-color: $light-grey;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 60px;
   h1{
     padding: 10px;
   }
   .admin-title-multi{
     h1{
-      font-size: $font-size-48;
+      font-size: $font-size-30;
       color: $gold;
     }
   }
@@ -26,7 +30,7 @@
     background-color: $gold;
     h1{
       color: $light-grey;
-      font-size: $font-size-48;
+      font-size: $font-size-30;
 
     }
   }
@@ -39,16 +43,16 @@ margin-top: 20px;
   ul{
       li {
         list-style: none;
-        font-size: $font-size-24;
+        font-size: $font-size-16;
 
         &:hover{
-           border-left: 4px solid red;
+           border-left: 2px solid red;
         }
 
         a{
            text-decoration: none;
-          padding: 20px;
-          margin: 0 0 20px;
+          padding: 10px;
+          margin: 0 0 10px;
           display: block;
           background-color:$gold ;
 
@@ -56,7 +60,7 @@ margin-top: 20px;
 
 
           &.active{
-            border-bottom-left-radius: 40px;
+            border-bottom-left-radius: 20px;
             background-color: $orange;
           }
         }

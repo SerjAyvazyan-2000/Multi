@@ -34,12 +34,7 @@ const Header = ({name,selectedCount}) => {
                        <div style={name ==="Dashboard"  ? {display:"none"} : null} className="btn-name">
                            <button onClick={handleClick}>{name} {selectedCount}</button>
                        </div>
-
-                       <div className="search">
-                           <label>
-                               <input type="text" placeholder="Search"/>
-                           </label>
-                       </div>
+                       
                        <div className="button-logout">
                            <button onClick={handleLogout}> <span className="icon-exit"></span>Logout</button>
                        </div>

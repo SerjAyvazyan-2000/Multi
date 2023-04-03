@@ -1,8 +1,8 @@
 @import "src/assets/style/variables";
 
 .featured-products-box{
-   width: 400px;
-  height: 400px;
+   width: 300px;
+  height: 300px;
   background-color: $white3;
   display: flex;
   flex-direction: column;
@@ -22,14 +22,18 @@
     margin-top: 0;
   }
 
-  @media screen and (max-width: 879px) {
-    width: 600px;
+  @media screen and (max-width: 575px) {
+    width: 200px;
+    height: 200px;
+  }
+  @media screen and (max-width:  958px) {
+    width: 250px;
+    height: 250px;
 
   }
-
   p{
      color: $green;
-    font-size: $font-size-30;
+    font-size: $font-size-16;
   }
 }
 .featured-img{
@@ -40,6 +44,17 @@
     width: 300px;
     height: 300px;
     transition: .4s;
+
+    @media screen and (max-width:  958px) {
+      width: 250px;
+      height: 250px;
+
+    }
+
+    @media screen and (max-width: 575px) {
+      width: 200px;
+      height: 200px;
+    }
   }
 }
 .featured-bg{
@@ -59,13 +74,13 @@
   align-items: center;
 
   span{
-    font-size: $font-size-24;
-    opacity: 0;
+    opacity: 1;
     transition: .4s;
-    padding: 20px;
-    border: 3px solid $gold;
+    padding: 10px;
+    border: 2px solid $gold;
     cursor: pointer;
-    margin: 20px;
+    margin: 10px;
+    color: $gold;
 
     &:hover{
        background-color: $light-grey;
@@ -78,13 +93,14 @@
 .featured-info{
    text-align: center;
 
-  h2{
+  span{
+    font-size: $font-size-20;
      padding:  5px;
     color: $light-grey;
   }
   p{
      padding:  5px;
     color: $light-grey;
-    font-size: $font-size-24;
+    font-size: $font-size-16;
   }
 }

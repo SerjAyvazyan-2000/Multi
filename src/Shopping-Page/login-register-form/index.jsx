@@ -16,7 +16,7 @@ const LoginRegister = () => {
 
     return <>
         <div className="G-container">
-            <div style={{backgroundImage:`url(${image})`}} className="login-register-container G-image">
+            <div className="login-register-container ">
                  <span>Event Get Admin Form</span>
         <div className="login-register-form">
                     <div className="login-register-tools">

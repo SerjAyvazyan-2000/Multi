@@ -15,9 +15,6 @@ const Header = () => {
           setOpenMenu(!openMenu)
     }
 
-    useEffect(()=>{
-        console.log(basketList)
-    },[])
 
      return <>
     <header className="header ">
@@ -26,16 +23,16 @@ const Header = () => {
                  <div className="title-pages">
 
                      <div className="menu-pages">
-                         <div className="title">
+                         <NavLink to={"/home"} className="title">
                              <div className="title-multi">
                                  <h1>Multi</h1>
                              </div>
                              <div className="title-shop">
                                  <h1>Shop</h1>
                              </div>
-                         </div>
+                         </NavLink>
 
-                         <nav className="header-menu">
+                         <nav className={` ${openMenu ? "fixed-menu": "header-menu"}`}>
                              <ul className="header-list">
                                  <li>
                                       <NavLink to={"home"}>Home</NavLink>
@@ -58,6 +55,7 @@ const Header = () => {
                                  </div>
                              </ul>
                          </nav>
+
                          <div className="burger-menu">
                              <span onClick={handleClick}  className="icon-menu"></span>
                          </div>

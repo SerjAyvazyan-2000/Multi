@@ -18,9 +18,6 @@ const Sidebar = () => {
 
         <nav className="nav-menu">
             <ul>
-                   <li>
-                        <NavLink to={"/dashboard"}><span className="icon-equalizer"></span>Dashboard</NavLink>
-                   </li>
                 <li>
                     <NavLink to={"/categories"}>Categories</NavLink>
                 </li>

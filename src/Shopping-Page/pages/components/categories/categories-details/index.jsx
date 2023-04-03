@@ -65,14 +65,14 @@ const CategoriesDetail =() => {
           <div className="G-container">
 
                  <div className="categories-detail-title">
-                       <h1>Home / Shop / Categories Detail / List</h1>
+                       <p>Home / Shop / Categories Detail / List</p>
                  </div>
 
                 <div className="detail-container">
                     {/*==========================FILTER PRODUCT=================*/}
                     <div className="filter-product">
                           <div className="filter-name">
-                                <h1>FILTER BY PRICE</h1>
+                                <p>FILTER BY PRICE</p>
                           </div>
                         <div className="filter-container">
                          <CostumersCheckbox
@@ -120,7 +120,7 @@ const CategoriesDetail =() => {
                              name='check'/>
                         </div>
                         <div className="filter-name">
-                              <h1>FILTER BY Categories</h1>
+                              <p>FILTER BY Categories</p>
                         </div>
                         <div className="filter-container">
                             <CostumersCheckbox type="radio"  info="All Color" />

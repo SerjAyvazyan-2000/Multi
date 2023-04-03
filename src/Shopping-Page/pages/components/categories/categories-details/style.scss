@@ -1,50 +1,55 @@
 @import "src/assets/style/variables";
 
-.categories-detail-title{
+.categories-detail-title {
   margin-top: 20px;
 
-  h1{
-    padding: 10px;
+  span {
+    padding: 0 0 10px;
   }
 }
-.filter-product{
- width: 20%;
 
-  @media screen and (max-width: 1065px){
+.filter-product {
+  width: 20%;
+
+  @media screen and (max-width: 1065px) {
     width: 100%;
   }
 }
-.detail-container{
-   display: flex;
+
+.detail-container {
+  display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 20px;
   gap: 20px;
 
-  @media screen and (max-width: 1065px){
+  @media screen and (max-width: 1065px) {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
 }
-.filter-container{
-    min-width: 300px;
-    min-height: 400px;
-   margin-top: 20px;
+
+.filter-container {
+  min-width: 200px;
+  min-height: 300px;
+  margin-top: 20px;
 
   background-color: white;
 }
-.detail-product-list{
-   width: calc(100% - 20%);
+
+.detail-product-list {
+  width: calc(100% - 20%);
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
-justify-content: center;
-  @media screen and (max-width: 1065px){
+  justify-content: center;
+  @media screen and (max-width: 1065px) {
     width: 100%;
 
   }
-  .loader{
-     font-size: $font-size-40;
+
+  .loader {
+    font-size: $font-size-16;
     color: $red;
   }
 

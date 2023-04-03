@@ -14,21 +14,24 @@ import Checkout from "./pages/checkout";
 
 const ShoppingPage = () => {
 
-    return <section className="shopping-page">
+    return <div className="shopping-page">
 
         <Header/>
-        <Routes>
-            <Route path={"*"} element={<Home/>}/>
-            <Route path={"home"} element={<Home/>}/>
-            <Route path={"/photographic/:id"} element={<CategoriesDetail/>}/>
-            <Route path={"/featuredDetail/:id"} element={<FeaturedDetail/>}/>
-            <Route path={"contact"} element={<Contact/>}/>
-            <Route path={"basket"} element={<ShoppingBasket/>}/>
-            <Route path={"login"} element={<LoginRegister/>}/>
-            <Route path={"checkout"} element={<Checkout/>}/>
-        </Routes>
-        <Footer/>
-    </section>
+        <div className="server-main">
+            <Routes>
+                <Route path={"*"} element={<Home/>}/>
+                <Route path={"home"} element={<Home/>}/>
+                <Route path={"/photographic/:id"} element={<CategoriesDetail/>}/>
+                <Route path={"/featuredDetail/:id"} element={<FeaturedDetail/>}/>
+                <Route path={"contact"} element={<Contact/>}/>
+                <Route path={"basket"} element={<ShoppingBasket/>}/>
+                <Route path={"login"} element={<LoginRegister/>}/>
+                <Route path={"checkout"} element={<Checkout/>}/>
+            </Routes>
+            <Footer/>
+        </div>
+
+    </div>
 }
 
 

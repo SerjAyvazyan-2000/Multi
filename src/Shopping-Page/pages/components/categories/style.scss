@@ -1,55 +1,60 @@
 @import "src/assets/style/variables";
 
-.categories{
-   display: flex;
+.categories {
+  display: flex;
+  width: 300px;
+  height: 70px;
+
   transition: .4s;
-  width: 24%;
   background-color: $white3;
   cursor: pointer;
   text-decoration: none;
   border-radius: 20px;
-overflow: hidden;
+  overflow: hidden;
 
-  &:hover{
+  &:hover {
     background-color: $gold;
     transition: .4s;
   }
-  &:hover{
-    .categories-img{
+
+  &:hover {
+    .categories-img {
       transform: scale(1.1);
       transition: .4s;
     }
   }
-  @media screen and (max-width: 1671px){
-    margin: 0 0 20px;
-    width: 520px;
+
+  @media screen and (max-width: 468px) {
+   height: 60px;
+    width: 170px;
+
+
 
   }
-  @media screen and (max-width: 1096px){
-    width: 360px;
+  @media screen and (max-width: 1096px) {
   }
-  @media screen and (max-width: 856px){
-   width: 400px;
+  @media screen and (max-width: 856px) {
   }
 
 }
 
 
-.categories-info{
-display: flex;
+.categories-info {
+  display: flex;
   align-items: center;
 
-  p{
-     font-size: $font-size-30;
-    padding: 10px;
+  p {
+    font-size: $font-size-16;
+    padding: 5px;
     color: $light-grey;
   }
 
 }
 
-.categories-img{
-   width: 100px;
-   height: 100px;
+.categories-img {
+
+  width: 100px;
+  height: 100%;
   transition: .4s;
 
 }

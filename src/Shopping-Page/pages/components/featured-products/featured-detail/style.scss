@@ -5,7 +5,7 @@
   margin-top: 20px;
 
    p{
-      font-size: $font-size-30;
+      font-size: $font-size-16;
      padding: 10px;
 
    }
@@ -15,7 +15,7 @@
    display: flex;
   justify-content: space-between;
 
-  margin-top: 50px;
+  margin-top: 40px;
   flex-wrap: wrap;
 
 }
@@ -39,7 +39,7 @@
 .featured-detail-info{
    width:58%;
   background-color: $white3;
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px;
 
 
@@ -53,10 +53,10 @@
 
 .information-block{
    p{
-      font-size: $font-size-40;
+      font-size: $font-size-16;
    }
   span{
-    font-size: $font-size-40;
+    font-size: $font-size-16;
     margin-top: 20px;
   }
 
@@ -71,7 +71,7 @@
 
     li{
       list-style: none;
-      font-size: 50px;
+      font-size: $font-size-16;
       color: gold;
       cursor: pointer;
     }
@@ -90,7 +90,7 @@
   }
 
     h2 {
-      font-size: $font-size-24;
+      font-size: $font-size-16;
     }
 
     label {
@@ -98,13 +98,13 @@
       padding: 10px;
 
       p {
-        font-size: $font-size-24;
+        font-size: $font-size-16;
         margin: 10px;
       }
 
       .p-radio {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         display: block;
         border: 1px solid blueviolet;
         border-radius: 50%;
@@ -134,7 +134,7 @@
      padding: 15px;
     background-color: $gold;
     cursor: pointer;
-    font-size: $font-size-24;
+    font-size: $font-size-16;
 
 
     &:hover{
@@ -144,7 +144,7 @@
   p{
     padding: 15px;
     background-color: $white1;
-    font-size: $font-size-24;
+    font-size: $font-size-16;
   }
 }
 //====================ICON STYLE==============
@@ -162,9 +162,9 @@
      position: relative;
      background: $gold;
      border-radius: 50%;
-     padding: 25px;
+     padding: 20px;
     margin: 25px;
-    font-size: $font-size-30;
+    font-size: $font-size-16;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +177,7 @@
   .tooltip{
      position: absolute;
     top: 0;
-    font-size: $font-size-30;
+    font-size: $font-size-16;
     background: aqua;
     border-radius: 20px;
     color: black;
@@ -217,8 +217,8 @@
 }
 .button-submit{
   position: relative;
-  width: 250px;
-  height: 100px;
+  width: 150px;
+  height: 80px;
   margin-top: 20px;
   transition: width .5s;
   border-radius: 20px;
@@ -227,7 +227,7 @@
   background-color: $gold;
 
   .text{
-    font-size: $font-size-24;
+    font-size: $font-size-16;
   }
 
 }

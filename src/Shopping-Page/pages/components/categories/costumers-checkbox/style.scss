@@ -4,7 +4,7 @@
 .checkbox-block{
   display: flex;
   justify-content: space-between;
-  padding: 15px;
+  padding: 10px;
   align-items: center;
 }
 
@@ -14,11 +14,11 @@
   align-items: center;
   input[type= "radio"]{
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
   }
   span{
-     font-size: $font-size-24;
+     font-size: $font-size-16;
   }
 
 }

@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9e8c825-f426-4bb7-b698-0374f6bcaaaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shopping-Page/pages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shopping-Page/pages/home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shopping-Page/pages/home/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shopping-Page/pages/home/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Lenovo/Desktop/Multi-Shoop",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/Task-Binance",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,7 +106,7 @@
       <workItem from="1679938588020" duration="26000" />
       <workItem from="1679940294447" duration="28000" />
       <workItem from="1680431048712" duration="783000" />
-      <workItem from="1680455711142" duration="756000" />
+      <workItem from="1680455711142" duration="1750000" />
     </task>
     <servers />
   </component>

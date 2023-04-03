@@ -31,8 +31,13 @@
 }
 .modal-content{
    min-width: 400px;
-   min-height: 400px;
+   min-height: 350px;
    background-color:$light-grey;
    position: relative;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 

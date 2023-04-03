@@ -36,7 +36,7 @@ const ShoppingBasket = () => {
 
 
   return <>
-    <div className="shopping-basket">
+    <section className="shopping-basket">
       <div className="G-container">
         <div className="shopping-basket-container">
           <div className="basket-container-name">
@@ -105,7 +105,7 @@ const ShoppingBasket = () => {
         </div>
       </div>
 
-    </div>
+    </section>
   </>
 }
 export default ShoppingBasket

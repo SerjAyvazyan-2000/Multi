@@ -51,7 +51,7 @@ const FeaturedProducts = ({item,index}) => {
           </div>
 
         <div className="featured-info">
-                 <h2>{item.Name}</h2>
+                 <span>{item.Name}</span>
                   <p>{item.Description}</p>
                  <p>{item.Prise}$</p>
         </div>

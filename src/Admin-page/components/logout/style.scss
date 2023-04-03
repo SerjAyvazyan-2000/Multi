@@ -3,23 +3,23 @@
 
   p{
      text-align: center;
-    font-size: 40px;
+    font-size: $font-size-16;
     color: $gold;
-    padding: 20px;
+    padding: 10px;
   }
 }
 
 .btn-logout{
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   button {
     position: relative;
     border: none;
-    margin: 20px;
+    margin: 10px;
     color: #ffffff;
     width: 60%;
-    min-height: 70px;
-    font-size: $font-size-24;
+    min-height: 40px;
+    font-size: $font-size-16;
     line-height: 2em;
     background: linear-gradient(
                     90deg, #03a9f4, #f441a5,
