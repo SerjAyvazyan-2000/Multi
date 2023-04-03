@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Multi-Shoop/static/css/main.1817dc1f.css",
-    "main.js": "/Multi-Shoop/static/js/main.65d86808.js",
+    "main.css": "/Multi-Shoop/static/css/main.29b5ea86.css",
+    "main.js": "/Multi-Shoop/static/js/main.424916f9.js",
     "static/media/carousel-1.jpg": "/Multi-Shoop/static/media/carousel-1.60602d436fd1c214c746.jpg",
     "static/media/cloth-black-product-7.jpg": "/Multi-Shoop/static/media/cloth-black-product-7.4b68f0a4c166ccfeb349.jpg",
     "static/media/botas-product-4.jpg": "/Multi-Shoop/static/media/botas-product-4.6c563b3ca6e5c3e02fe1.jpg",
@@ -24,11 +24,11 @@
     "static/media/slick.ttf": "/Multi-Shoop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Multi-Shoop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Multi-Shoop/index.html",
-    "main.1817dc1f.css.map": "/Multi-Shoop/static/css/main.1817dc1f.css.map",
-    "main.65d86808.js.map": "/Multi-Shoop/static/js/main.65d86808.js.map"
+    "main.29b5ea86.css.map": "/Multi-Shoop/static/css/main.29b5ea86.css.map",
+    "main.424916f9.js.map": "/Multi-Shoop/static/js/main.424916f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.1817dc1f.css",
-    "static/js/main.65d86808.js"
+    "static/css/main.29b5ea86.css",
+    "static/js/main.424916f9.js"
   ]
 }
